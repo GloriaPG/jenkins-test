@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="2" hostname="vincoOrbiss-Mac-mini.local" id="0" name="LenguajesControllerSpec" package="lenguajes" tests="7" time="6.791" timestamp="2014-05-14T21:34:59">
+      <properties />
+
+      <testcase classname="lenguajes.LenguajesControllerSpec" name="Test the index action returns the correct model" time="4.793" />
+
+      <testcase classname="lenguajes.LenguajesControllerSpec" name="Test the create action returns the correct model" time="0.22" />
+
+      <testcase classname="lenguajes.LenguajesControllerSpec" name="Test the save action correctly persists an instance" time="0.606">
+          <error message="Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead " type="org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException">org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:52)
+</error>
+
+      </testcase>
+
+      <testcase classname="lenguajes.LenguajesControllerSpec" name="Test that the show action returns the correct model" time="0.116" />
+
+      <testcase classname="lenguajes.LenguajesControllerSpec" name="Test that the edit action returns the correct model" time="0.154" />
+
+      <testcase classname="lenguajes.LenguajesControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.414">
+          <failure message="Condition not satisfied:&#xa;&#xa;status == 404&#xa;|      |&#xa;302    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:97)
+</failure>
+
+      </testcase>
+
+      <testcase classname="lenguajes.LenguajesControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.122">
+          <failure message="Condition not satisfied:&#xa;&#xa;status == 404&#xa;|      |&#xa;302    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:125)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="2" hostname="vincoOrbiss-Mac-mini.local" id="1" name="MusicaControllerSpec" package="musica" tests="7" time="1.534" timestamp="2014-05-14T21:35:05">
+      <properties />
+
+      <testcase classname="musica.MusicaControllerSpec" name="Test the index action returns the correct model" time="0.38" />
+
+      <testcase classname="musica.MusicaControllerSpec" name="Test the create action returns the correct model" time="0.11" />
+
+      <testcase classname="musica.MusicaControllerSpec" name="Test the save action correctly persists an instance" time="0.156">
+          <error message="Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead " type="org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException">org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:52)
+</error>
+
+      </testcase>
+
+      <testcase classname="musica.MusicaControllerSpec" name="Test that the show action returns the correct model" time="0.098" />
+
+      <testcase classname="musica.MusicaControllerSpec" name="Test that the edit action returns the correct model" time="0.135" />
+
+      <testcase classname="musica.MusicaControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.151">
+          <failure message="Condition not satisfied:&#xa;&#xa;status == 404&#xa;|      |&#xa;302    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:97)
+</failure>
+
+      </testcase>
+
+      <testcase classname="musica.MusicaControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.106">
+          <failure message="Condition not satisfied:&#xa;&#xa;status == 404&#xa;|      |&#xa;302    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:125)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="2" hostname="vincoOrbiss-Mac-mini.local" id="2" name="PeliculasControllerSpec" package="peliculas" tests="7" time="1.573" timestamp="2014-05-14T21:35:07">
+      <properties />
+
+      <testcase classname="peliculas.PeliculasControllerSpec" name="Test the index action returns the correct model" time="0.442" />
+
+      <testcase classname="peliculas.PeliculasControllerSpec" name="Test the create action returns the correct model" time="0.143" />
+
+      <testcase classname="peliculas.PeliculasControllerSpec" name="Test the save action correctly persists an instance" time="0.159">
+          <error message="Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead " type="org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException">org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:52)
+</error>
+
+      </testcase>
+
+      <testcase classname="peliculas.PeliculasControllerSpec" name="Test that the show action returns the correct model" time="0.121" />
+
+      <testcase classname="peliculas.PeliculasControllerSpec" name="Test that the edit action returns the correct model" time="0.121" />
+
+      <testcase classname="peliculas.PeliculasControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.229">
+          <failure message="Condition not satisfied:&#xa;&#xa;status == 404&#xa;|      |&#xa;302    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:97)
+</failure>
+
+      </testcase>
+
+      <testcase classname="peliculas.PeliculasControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.156">
+          <failure message="Condition not satisfied:&#xa;&#xa;status == 404&#xa;|      |&#xa;302    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:125)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
