@@ -1,0 +1,65 @@
+Testsuite: lenguajes.LenguajesControllerSpec
+Tests run: 7, Failures: 2, Errors: 1, Time elapsed: 6.791 sec
+------------- Standard Output ---------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+------------- ---------------- ---------------
+
+Testcase: Test the index action returns the correct model took 4.793 sec
+Testcase: Test the create action returns the correct model took 0.22 sec
+Testcase: Test the save action correctly persists an instance took 0.589 sec
+	Caused an ERROR
+Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:52)
+
+Testcase: Test that the show action returns the correct model took 0.116 sec
+Testcase: Test that the edit action returns the correct model took 0.155 sec
+Testcase: Test the update action performs an update on a valid domain instance took 0.394 sec
+	FAILED
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:97)
+
+Testcase: Test that the delete action deletes an instance if it exists took 0.105 sec
+	FAILED
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:125)
+

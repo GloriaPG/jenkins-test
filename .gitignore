@@ -18,10 +18,8 @@ prodDb.*
 eclipse
 stacktrace.log
 out
-target
 target-eclipse
 plugins
-test/reports
 lib
 web-app/plugins
 web-app/WEB-INF/classes
