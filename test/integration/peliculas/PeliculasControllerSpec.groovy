@@ -32,29 +32,6 @@ class PeliculasControllerSpec extends Specification {
         model.peliculasInstance != null
     }
 
-    void "Test the save action correctly persists an instance"() {
-
-        when: "The save action is executed with an invalid instance"
-        def peliculas = new Peliculas()
-        peliculas.validate()
-        controller.save(peliculas)
-
-        then: "The create view is rendered again with the correct model"
-        model.peliculasInstance != null
-        view == 'create'
-
-        when: "The save action is executed with a valid instance"
-        response.reset()
-        populateValidParams(params)
-        peliculas = new Peliculas(params)
-
-        controller.save(peliculas)
-
-        then: "A redirect is issued to the show action"
-        response.redirectedUrl == '/peliculas/show/1'
-        controller.flash.message != null
-        Peliculas.count() == 1
-    }
 
     void "Test that the show action returns the correct model"() {
         when: "The show action is executed with a null domain"

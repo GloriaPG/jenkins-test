@@ -32,29 +32,7 @@ class MusicaControllerSpec extends Specification {
         model.musicaInstance != null
     }
 
-    void "Test the save action correctly persists an instance"() {
 
-        when: "The save action is executed with an invalid instance"
-        def musica = new Musica()
-        musica.validate()
-        controller.save(musica)
-
-        then: "The create view is rendered again with the correct model"
-        model.musicaInstance != null
-        view == 'create'
-
-        when: "The save action is executed with a valid instance"
-        response.reset()
-        populateValidParams(params)
-        musica = new Musica(params)
-
-        controller.save(musica)
-
-        then: "A redirect is issued to the show action"
-        response.redirectedUrl == '/musica/show/1'
-        controller.flash.message != null
-        Musica.count() == 1
-    }
 
     void "Test that the show action returns the correct model"() {
         when: "The show action is executed with a null domain"

@@ -1,9 +1,8 @@
 Testsuite: peliculas.PeliculasControllerSpec
-Tests run: 7, Failures: 4, Errors: 1, Time elapsed: 1.394 sec
+Tests run: 6, Failures: 4, Errors: 0, Time elapsed: 1.103 sec
 ------------- Standard Output ---------------
 --Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
---Output from Test the save action correctly persists an instance--
 --Output from Test that the show action returns the correct model--
 --Output from Test that the edit action returns the correct model--
 --Output from Test the update action performs an update on a valid domain instance--
@@ -12,40 +11,31 @@ Tests run: 7, Failures: 4, Errors: 1, Time elapsed: 1.394 sec
 ------------- Standard Error -----------------
 --Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
---Output from Test the save action correctly persists an instance--
 --Output from Test that the show action returns the correct model--
 --Output from Test that the edit action returns the correct model--
 --Output from Test the update action performs an update on a valid domain instance--
 --Output from Test that the delete action deletes an instance if it exists--
 ------------- ---------------- ---------------
 
-Testcase: Test the index action returns the correct model took 0.368 sec
-Testcase: Test the create action returns the correct model took 0.184 sec
-Testcase: Test the save action correctly persists an instance took 0.155 sec
-	Caused an ERROR
-Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
-org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
-	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
-	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
-	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:51)
-
-Testcase: Test that the show action returns the correct model took 0.078 sec
+Testcase: Test the index action returns the correct model took 0.32 sec
+Testcase: Test the create action returns the correct model took 0.108 sec
+Testcase: Test that the show action returns the correct model took 0.08 sec
 	FAILED
 Condition not satisfied:
 
 response.status == 404
 |        |      |
 |        200    false
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2de
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3fd3d0eb
 
 junit.framework.AssertionFailedError: Condition not satisfied:
 
 response.status == 404
 |        |      |
 |        200    false
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2de
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3fd3d0eb
 
-	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:64)
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
 
 Testcase: Test that the edit action returns the correct model took 0.102 sec
 	FAILED
@@ -54,18 +44,18 @@ Condition not satisfied:
 response.status == 404
 |        |      |
 |        200    false
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd194
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@487096f3
 
 junit.framework.AssertionFailedError: Condition not satisfied:
 
 response.status == 404
 |        |      |
 |        200    false
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd194
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@487096f3
 
-	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:80)
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
 
-Testcase: Test the update action performs an update on a valid domain instance took 0.118 sec
+Testcase: Test the update action performs an update on a valid domain instance took 0.122 sec
 	FAILED
 Condition not satisfied:
 
@@ -79,9 +69,9 @@ status == 404
 |      |
 200    false
 
-	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:96)
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
 
-Testcase: Test that the delete action deletes an instance if it exists took 0.083 sec
+Testcase: Test that the delete action deletes an instance if it exists took 0.084 sec
 	FAILED
 Condition not satisfied:
 
@@ -95,5 +85,5 @@ status == 404
 |      |
 200    false
 
-	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:124)
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
 

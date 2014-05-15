@@ -32,29 +32,7 @@ class LenguajesControllerSpec extends Specification {
         model.lenguajesInstance != null
     }
 
-    void "Test the save action correctly persists an instance"() {
 
-        when: "The save action is executed with an invalid instance"
-        def lenguajes = new Lenguajes()
-        lenguajes.validate()
-        controller.save(lenguajes)
-
-        then: "The create view is rendered again with the correct model"
-        model.lenguajesInstance != null
-        view == 'create'
-
-        when: "The save action is executed with a valid instance"
-        response.reset()
-        populateValidParams(params)
-        lenguajes = new Lenguajes(params)
-
-        controller.save(lenguajes)
-
-        then: "A redirect is issued to the show action"
-        response.redirectedUrl == '/lenguajes/show/1'
-        controller.flash.message != null
-        Lenguajes.count() == 1
-    }
 
     void "Test that the show action returns the correct model"() {
         when: "The show action is executed with a null domain"

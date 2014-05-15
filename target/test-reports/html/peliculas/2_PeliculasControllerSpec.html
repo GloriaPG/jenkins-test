@@ -35,18 +35,15 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite error">
+<div class="testsuite failure">
 <div class="header">
 <h2>PeliculasControllerSpec</h2>
 <h3>
                         Executed
-                        7
+                        6
                         tests
                     
                         with
-                        one error
-
-                        and
                         4 failures
                         .
                     </h3>
@@ -56,7 +53,7 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Test the index action returns the correct model</b>
 </p>
-<p class="summary">Executed in 0.368 seconds.</p>
+<p class="summary">Executed in 0.319 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
@@ -66,30 +63,9 @@
 <p>
 <span class="icon success"></span><b class="testname message success">Test the create action returns the correct model</b>
 </p>
-<p class="summary">Executed in 0.184 seconds.</p>
+<p class="summary">Executed in 0.108 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo"></div>
-<div class="clear"></div>
-</div>
-<div class="testcase clearfix error grid_8 alpha omega" data-name="Test the save action correctly persists an instance">
-<div class="grid_3 alpha">
-<p>
-<span class="icon error"></span><b class="testname message error">Test the save action correctly persists an instance</b>
-</p>
-<p class="summary">Executed in 0.196 seconds.</p>
-</div>
-<div class="grid_5 omega outputinfo">
-<div class="details">
-<p>
-<b class="message">Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead </b>
-</p>
-<pre>org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
-	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
-	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
-	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:51)
-</pre>
-</div>
-</div>
 <div class="clear"></div>
 </div>
 <div class="testcase clearfix failure grid_8 alpha omega" data-name="Test that the show action returns the correct model">
@@ -97,7 +73,7 @@
 <p>
 <span class="icon failure"></span><b class="testname message failure">Test that the show action returns the correct model</b>
 </p>
-<p class="summary">Executed in 0.116 seconds.</p>
+<p class="summary">Executed in 0.111 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo">
 <div class="details">
@@ -107,7 +83,7 @@
 response.status == 404
 |        |      |
 |        200    false
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2de
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3fd3d0eb
 </b>
 </p>
 <pre>junit.framework.AssertionFailedError: Condition not satisfied:
@@ -115,9 +91,9 @@ org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2d
 response.status == 404
 |        |      |
 |        200    false
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2de
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3fd3d0eb
 
-	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:64)
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
 </pre>
 </div>
 </div>
@@ -128,7 +104,7 @@ org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2d
 <p>
 <span class="icon failure"></span><b class="testname message failure">Test that the edit action returns the correct model</b>
 </p>
-<p class="summary">Executed in 0.145 seconds.</p>
+<p class="summary">Executed in 0.14 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo">
 <div class="details">
@@ -138,7 +114,7 @@ org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2d
 response.status == 404
 |        |      |
 |        200    false
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd194
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@487096f3
 </b>
 </p>
 <pre>junit.framework.AssertionFailedError: Condition not satisfied:
@@ -146,9 +122,9 @@ org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd19
 response.status == 404
 |        |      |
 |        200    false
-org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd194
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@487096f3
 
-	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:80)
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
 </pre>
 </div>
 </div>
@@ -159,7 +135,7 @@ org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd19
 <p>
 <span class="icon failure"></span><b class="testname message failure">Test the update action performs an update on a valid domain instance</b>
 </p>
-<p class="summary">Executed in 0.145 seconds.</p>
+<p class="summary">Executed in 0.151 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo">
 <div class="details">
@@ -177,7 +153,7 @@ status == 404
 |      |
 200    false
 
-	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:96)
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
 </pre>
 </div>
 </div>
@@ -188,7 +164,7 @@ status == 404
 <p>
 <span class="icon failure"></span><b class="testname message failure">Test that the delete action deletes an instance if it exists</b>
 </p>
-<p class="summary">Executed in 0.125 seconds.</p>
+<p class="summary">Executed in 0.117 seconds.</p>
 </div>
 <div class="grid_5 omega outputinfo">
 <div class="details">
@@ -206,7 +182,7 @@ status == 404
 |      |
 200    false
 
-	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:124)
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
 </pre>
 </div>
 </div>
@@ -217,7 +193,6 @@ status == 404
 <h2>Standard output</h2>
 <pre class="stdout">--Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
---Output from Test the save action correctly persists an instance--
 --Output from Test that the show action returns the correct model--
 --Output from Test that the edit action returns the correct model--
 --Output from Test the update action performs an update on a valid domain instance--
@@ -228,7 +203,6 @@ status == 404
 <h2>System error</h2>
 <pre class="syserr">--Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
---Output from Test the save action correctly persists an instance--
 --Output from Test that the show action returns the correct model--
 --Output from Test that the edit action returns the correct model--
 --Output from Test the update action performs an update on a valid domain instance--
