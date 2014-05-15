@@ -1,7 +1,0 @@
---Output from Test the index action returns the correct model--
---Output from Test the create action returns the correct model--
---Output from Test the save action correctly persists an instance--
---Output from Test that the show action returns the correct model--
---Output from Test that the edit action returns the correct model--
---Output from Test the update action performs an update on a valid domain instance--
---Output from Test that the delete action deletes an instance if it exists--
