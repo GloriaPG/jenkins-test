@@ -1,13 +1,12 @@
-package lenguajes
+package peliculas
 
+import grails.test.mixin.Mock
+import grails.test.mixin.TestFor
+import spock.lang.Specification
 
-
-import grails.test.mixin.*
-import spock.lang.*
-
-@TestFor(LenguajesController)
-@Mock(Lenguajes)
-class LenguajesControllerSpec extends Specification {
+@TestFor(PeliculasController)
+@Mock(Peliculas)
+class PeliculasControllerSpec extends Specification {
 
     def populateValidParams(params) {
         assert params != null
@@ -21,8 +20,8 @@ class LenguajesControllerSpec extends Specification {
         controller.index()
 
         then: "The model is correct"
-        !model.lenguajesInstanceList
-        model.lenguajesInstanceCount == 0
+        !model.peliculasInstanceList
+        model.peliculasInstanceCount == 0
     }
 
     void "Test the create action returns the correct model"() {
@@ -30,31 +29,31 @@ class LenguajesControllerSpec extends Specification {
         controller.create()
 
         then: "The model is correctly created"
-        model.lenguajesInstance != null
+        model.peliculasInstance != null
     }
 
     void "Test the save action correctly persists an instance"() {
 
         when: "The save action is executed with an invalid instance"
-        def lenguajes = new Lenguajes()
-        lenguajes.validate()
-        controller.save(lenguajes)
+        def peliculas = new Peliculas()
+        peliculas.validate()
+        controller.save(peliculas)
 
         then: "The create view is rendered again with the correct model"
-        model.lenguajesInstance != null
+        model.peliculasInstance != null
         view == 'create'
 
         when: "The save action is executed with a valid instance"
         response.reset()
         populateValidParams(params)
-        lenguajes = new Lenguajes(params)
+        peliculas = new Peliculas(params)
 
-        controller.save(lenguajes)
+        controller.save(peliculas)
 
         then: "A redirect is issued to the show action"
-        response.redirectedUrl == '/lenguajes/show/1'
+        response.redirectedUrl == '/peliculas/show/1'
         controller.flash.message != null
-        Lenguajes.count() == 1
+        Peliculas.count() == 1
     }
 
     void "Test that the show action returns the correct model"() {
@@ -66,11 +65,11 @@ class LenguajesControllerSpec extends Specification {
 
         when: "A domain instance is passed to the show action"
         populateValidParams(params)
-        def lenguajes = new Lenguajes(params)
-        controller.show(lenguajes)
+        def peliculas = new Peliculas(params)
+        controller.show(peliculas)
 
         then: "A model is populated containing the domain instance"
-        model.lenguajesInstance == lenguajes
+        model.peliculasInstance == peliculas
     }
 
     void "Test that the edit action returns the correct model"() {
@@ -82,11 +81,11 @@ class LenguajesControllerSpec extends Specification {
 
         when: "A domain instance is passed to the edit action"
         populateValidParams(params)
-        def lenguajes = new Lenguajes(params)
-        controller.edit(lenguajes)
+        def peliculas = new Peliculas(params)
+        controller.edit(peliculas)
 
         then: "A model is populated containing the domain instance"
-        model.lenguajesInstance == lenguajes
+        model.peliculasInstance == peliculas
     }
 
     void "Test the update action performs an update on a valid domain instance"() {
@@ -98,22 +97,22 @@ class LenguajesControllerSpec extends Specification {
 
         when: "An invalid domain instance is passed to the update action"
         response.reset()
-        def lenguajes = new Lenguajes()
-        lenguajes.validate()
-        controller.update(lenguajes)
+        def peliculas = new Peliculas()
+        peliculas.validate()
+        controller.update(peliculas)
 
         then: "The edit view is rendered again with the invalid instance"
         view == 'edit'
-        model.lenguajesInstance == lenguajes
+        model.peliculasInstance == peliculas
 
         when: "A valid domain instance is passed to the update action"
         response.reset()
         populateValidParams(params)
-        lenguajes = new Lenguajes(params).save(flush: true)
-        controller.update(lenguajes)
+        peliculas = new Peliculas(params).save(flush: true)
+        controller.update(peliculas)
 
         then: "A redirect is issues to the show action"
-        response.redirectedUrl == "/lenguajes/show/$lenguajes.id"
+        response.redirectedUrl == "/peliculas/show/$peliculas.id"
         flash.message != null
     }
 
@@ -127,17 +126,17 @@ class LenguajesControllerSpec extends Specification {
         when: "A domain instance is created"
         response.reset()
         populateValidParams(params)
-        def lenguajes = new Lenguajes(params).save(flush: true)
+        def peliculas = new Peliculas(params).save(flush: true)
 
         then: "It exists"
-        Lenguajes.count() == 1
+        Peliculas.count() == 1
 
         when: "The domain instance is passed to the delete action"
-        controller.delete(lenguajes)
+        controller.delete(peliculas)
 
         then: "The instance is deleted"
-        Lenguajes.count() == 0
-        response.redirectedUrl == '/lenguajes/index'
+        Peliculas.count() == 0
+        response.redirectedUrl == '/peliculas/index'
         flash.message != null
     }
 }

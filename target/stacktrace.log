@@ -1795,3 +1795,1179 @@ org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic c
 	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1366)
 	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:424)
 	at java.lang.Thread.run(Thread.java:695)
+2014-05-15 18:03:17,190 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:273)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:123)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:53)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:131)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:52)
+2014-05-15 18:03:17,207 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:52)
+2014-05-15 18:03:17,209 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:52)
+2014-05-15 18:03:17,209 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:52)
+2014-05-15 18:03:17,244 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:52)
+2014-05-15 18:03:17,245 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:52)
+2014-05-15 18:03:17,804 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:97)
+2014-05-15 18:03:17,808 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:97)
+2014-05-15 18:03:17,810 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:97)
+2014-05-15 18:03:17,811 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:97)
+2014-05-15 18:03:17,811 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:97)
+2014-05-15 18:03:17,812 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:97)
+2014-05-15 18:03:17,928 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:125)
+2014-05-15 18:03:17,929 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:125)
+2014-05-15 18:03:17,929 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:125)
+2014-05-15 18:03:17,929 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:125)
+2014-05-15 18:03:17,930 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:125)
+2014-05-15 18:03:17,930 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:125)
+2014-05-15 18:03:19,252 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:273)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:123)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:53)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:131)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:52)
+2014-05-15 18:03:19,252 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:52)
+2014-05-15 18:03:19,252 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:52)
+2014-05-15 18:03:19,253 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:52)
+2014-05-15 18:03:19,253 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:52)
+2014-05-15 18:03:19,253 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:52)
+2014-05-15 18:03:19,599 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:97)
+2014-05-15 18:03:19,599 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:97)
+2014-05-15 18:03:19,600 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:97)
+2014-05-15 18:03:19,600 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:97)
+2014-05-15 18:03:19,600 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:97)
+2014-05-15 18:03:19,600 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:97)
+2014-05-15 18:03:19,716 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:125)
+2014-05-15 18:03:19,716 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:125)
+2014-05-15 18:03:19,716 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:125)
+2014-05-15 18:03:19,716 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:125)
+2014-05-15 18:03:19,716 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:125)
+2014-05-15 18:03:19,717 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:125)
+2014-05-15 18:03:20,702 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:273)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:123)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:53)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:131)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:52)
+2014-05-15 18:03:20,702 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:52)
+2014-05-15 18:03:20,703 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:52)
+2014-05-15 18:03:20,703 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:52)
+2014-05-15 18:03:20,703 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:52)
+2014-05-15 18:03:20,703 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:52)
+2014-05-15 18:03:21,179 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:97)
+2014-05-15 18:03:21,179 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:97)
+2014-05-15 18:03:21,179 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:97)
+2014-05-15 18:03:21,179 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:97)
+2014-05-15 18:03:21,180 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:97)
+2014-05-15 18:03:21,180 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:97)
+2014-05-15 18:03:21,353 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:125)
+2014-05-15 18:03:21,353 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:125)
+2014-05-15 18:03:21,354 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:125)
+2014-05-15 18:03:21,354 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:125)
+2014-05-15 18:03:21,354 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:125)
+2014-05-15 18:03:21,354 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+302    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:125)
+2014-05-15 18:22:28,028 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:273)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:123)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:53)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:131)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:51)
+2014-05-15 18:22:28,040 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:51)
+2014-05-15 18:22:28,041 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:51)
+2014-05-15 18:22:28,041 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:51)
+2014-05-15 18:22:28,063 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:51)
+2014-05-15 18:22:28,063 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [lenguajes.Lenguajes : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at lenguajes.LenguajesController.save_closure4_closure9_closure10(LenguajesController.groovy:43)
+	at lenguajes.LenguajesController.save_closure4(LenguajesController.groovy:40)
+	at lenguajes.LenguajesControllerSpec.Test the save action correctly persists an instance(LenguajesControllerSpec.groovy:51)
+2014-05-15 18:22:28,222 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@567e0121
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:64)
+2014-05-15 18:22:28,225 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@567e0121
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:64)
+2014-05-15 18:22:28,225 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@567e0121
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:64)
+2014-05-15 18:22:28,225 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@567e0121
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:64)
+2014-05-15 18:22:28,226 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@567e0121
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:64)
+2014-05-15 18:22:28,226 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@567e0121
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:64)
+2014-05-15 18:22:28,421 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@12fbbad2
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:80)
+2014-05-15 18:22:28,422 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@12fbbad2
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:80)
+2014-05-15 18:22:28,422 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@12fbbad2
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:80)
+2014-05-15 18:22:28,422 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@12fbbad2
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:80)
+2014-05-15 18:22:28,422 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@12fbbad2
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:80)
+2014-05-15 18:22:28,423 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@12fbbad2
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:80)
+2014-05-15 18:22:28,647 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:96)
+2014-05-15 18:22:28,647 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:96)
+2014-05-15 18:22:28,647 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:96)
+2014-05-15 18:22:28,648 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:96)
+2014-05-15 18:22:28,648 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:96)
+2014-05-15 18:22:28,648 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:96)
+2014-05-15 18:22:28,787 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:124)
+2014-05-15 18:22:28,787 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:124)
+2014-05-15 18:22:28,788 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:124)
+2014-05-15 18:22:28,788 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:124)
+2014-05-15 18:22:28,788 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:124)
+2014-05-15 18:22:28,788 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:124)
+2014-05-15 18:22:30,086 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:273)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:123)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:53)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:131)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:51)
+2014-05-15 18:22:30,086 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:51)
+2014-05-15 18:22:30,086 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:51)
+2014-05-15 18:22:30,086 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:51)
+2014-05-15 18:22:30,087 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:51)
+2014-05-15 18:22:30,087 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [musica.Musica : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at musica.MusicaController.save_closure4_closure9_closure10(MusicaController.groovy:43)
+	at musica.MusicaController.save_closure4(MusicaController.groovy:40)
+	at musica.MusicaControllerSpec.Test the save action correctly persists an instance(MusicaControllerSpec.groovy:51)
+2014-05-15 18:22:30,196 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ce1bafc
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:64)
+2014-05-15 18:22:30,197 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ce1bafc
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:64)
+2014-05-15 18:22:30,197 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ce1bafc
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:64)
+2014-05-15 18:22:30,197 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ce1bafc
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:64)
+2014-05-15 18:22:30,197 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ce1bafc
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:64)
+2014-05-15 18:22:30,197 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4ce1bafc
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:64)
+2014-05-15 18:22:30,312 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@79f7fcd0
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:80)
+2014-05-15 18:22:30,312 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@79f7fcd0
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:80)
+2014-05-15 18:22:30,312 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@79f7fcd0
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:80)
+2014-05-15 18:22:30,312 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@79f7fcd0
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:80)
+2014-05-15 18:22:30,313 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@79f7fcd0
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:80)
+2014-05-15 18:22:30,313 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@79f7fcd0
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:80)
+2014-05-15 18:22:30,465 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:96)
+2014-05-15 18:22:30,465 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:96)
+2014-05-15 18:22:30,465 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:96)
+2014-05-15 18:22:30,465 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:96)
+2014-05-15 18:22:30,465 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:96)
+2014-05-15 18:22:30,465 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:96)
+2014-05-15 18:22:30,602 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:124)
+2014-05-15 18:22:30,602 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:124)
+2014-05-15 18:22:30,602 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:124)
+2014-05-15 18:22:30,602 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:124)
+2014-05-15 18:22:30,603 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:124)
+2014-05-15 18:22:30,603 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:124)
+2014-05-15 18:22:31,676 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:273)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at groovy.lang.Closure.call(Closure.java:405)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:123)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:53)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at groovy.lang.Closure.call(Closure.java:411)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:131)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1259)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:51)
+2014-05-15 18:22:31,676 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:51)
+2014-05-15 18:22:31,676 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:51)
+2014-05-15 18:22:31,676 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:51)
+2014-05-15 18:22:31,677 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:51)
+2014-05-15 18:22:31,677 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [peliculas.Peliculas : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at peliculas.PeliculasController.save_closure4_closure9_closure10(PeliculasController.groovy:43)
+	at peliculas.PeliculasController.save_closure4(PeliculasController.groovy:40)
+	at peliculas.PeliculasControllerSpec.Test the save action correctly persists an instance(PeliculasControllerSpec.groovy:51)
+2014-05-15 18:22:31,795 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2de
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:64)
+2014-05-15 18:22:31,795 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2de
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:64)
+2014-05-15 18:22:31,795 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2de
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:64)
+2014-05-15 18:22:31,795 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2de
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:64)
+2014-05-15 18:22:31,796 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2de
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:64)
+2014-05-15 18:22:31,796 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@621ee2de
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:64)
+2014-05-15 18:22:31,934 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd194
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:80)
+2014-05-15 18:22:31,935 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd194
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:80)
+2014-05-15 18:22:31,935 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd194
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:80)
+2014-05-15 18:22:31,935 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd194
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:80)
+2014-05-15 18:22:31,935 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd194
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:80)
+2014-05-15 18:22:31,936 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@563cd194
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:80)
+2014-05-15 18:22:32,096 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:96)
+2014-05-15 18:22:32,096 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:96)
+2014-05-15 18:22:32,096 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:96)
+2014-05-15 18:22:32,096 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:96)
+2014-05-15 18:22:32,096 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:96)
+2014-05-15 18:22:32,096 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:96)
+2014-05-15 18:22:32,207 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:124)
+2014-05-15 18:22:32,207 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:124)
+2014-05-15 18:22:32,207 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:124)
+2014-05-15 18:22:32,207 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:124)
+2014-05-15 18:22:32,207 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:124)
+2014-05-15 18:22:32,207 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:124)
