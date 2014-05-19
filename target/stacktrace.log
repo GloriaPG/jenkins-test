@@ -3583,3 +3583,1359 @@ status == 404
 200    false
 
 	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:44:34,288 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43b1510a
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:44:34,312 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43b1510a
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:44:34,314 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43b1510a
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:44:34,314 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43b1510a
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:44:34,371 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43b1510a
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:44:34,372 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@43b1510a
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:44:34,648 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@114bc6a3
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:44:34,649 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@114bc6a3
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:44:34,649 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@114bc6a3
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:44:34,649 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@114bc6a3
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:44:34,650 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@114bc6a3
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:44:34,650 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@114bc6a3
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:44:34,823 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:44:34,823 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:44:34,824 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:44:34,824 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:44:34,824 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:44:34,824 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:44:35,000 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:44:35,000 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:44:35,000 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:44:35,000 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:44:35,001 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:44:35,001 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:44:36,208 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@606a1ca2
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:44:36,209 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@606a1ca2
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:44:36,209 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@606a1ca2
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:44:36,209 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@606a1ca2
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:44:36,209 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@606a1ca2
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:44:36,210 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@606a1ca2
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:44:36,379 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1d69a562
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:44:36,380 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1d69a562
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:44:36,380 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1d69a562
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:44:36,380 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1d69a562
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:44:36,380 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1d69a562
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:44:36,380 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1d69a562
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:44:36,551 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:44:36,551 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:44:36,551 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:44:36,551 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:44:36,551 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:44:36,552 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:44:36,705 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:44:36,706 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:44:36,706 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:44:36,706 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:44:36,706 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:44:36,706 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:44:37,724 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2c20fa96
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:44:37,724 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2c20fa96
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:44:37,725 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2c20fa96
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:44:37,725 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2c20fa96
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:44:37,725 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2c20fa96
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:44:37,725 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@2c20fa96
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:44:37,884 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69d5ee81
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:44:37,884 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69d5ee81
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:44:37,885 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69d5ee81
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:44:37,885 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69d5ee81
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:44:37,885 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69d5ee81
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:44:37,885 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69d5ee81
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:44:38,072 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:44:38,073 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:44:38,073 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:44:38,073 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:44:38,073 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:44:38,073 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:44:38,219 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:44:38,219 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:44:38,220 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:44:38,220 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:44:38,220 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:44:38,221 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:47:53,144 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7a51e6b8
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:47:53,147 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7a51e6b8
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:47:53,148 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7a51e6b8
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:47:53,148 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7a51e6b8
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:47:53,155 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7a51e6b8
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:47:53,155 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7a51e6b8
+
+	at lenguajes.LenguajesControllerSpec.Test that the show action returns the correct model(LenguajesControllerSpec.groovy:42)
+2014-05-16 10:47:53,369 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4a871190
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:47:53,369 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4a871190
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:47:53,369 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4a871190
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:47:53,370 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4a871190
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:47:53,370 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4a871190
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:47:53,370 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@4a871190
+
+	at lenguajes.LenguajesControllerSpec.Test that the edit action returns the correct model(LenguajesControllerSpec.groovy:58)
+2014-05-16 10:47:53,614 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:47:53,614 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:47:53,614 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:47:53,614 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:47:53,615 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:47:53,615 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test the update action performs an update on a valid domain instance(LenguajesControllerSpec.groovy:74)
+2014-05-16 10:47:53,764 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:47:53,765 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:47:53,765 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:47:53,765 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:47:53,765 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:47:53,765 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at lenguajes.LenguajesControllerSpec.Test that the delete action deletes an instance if it exists(LenguajesControllerSpec.groovy:102)
+2014-05-16 10:47:54,907 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69b95c3a
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:47:54,907 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69b95c3a
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:47:54,907 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69b95c3a
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:47:54,908 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69b95c3a
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:47:54,908 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69b95c3a
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:47:54,908 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@69b95c3a
+
+	at musica.MusicaControllerSpec.Test that the show action returns the correct model(MusicaControllerSpec.groovy:42)
+2014-05-16 10:47:55,076 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3132c615
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:47:55,076 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3132c615
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:47:55,076 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3132c615
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:47:55,076 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3132c615
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:47:55,077 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3132c615
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:47:55,077 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@3132c615
+
+	at musica.MusicaControllerSpec.Test that the edit action returns the correct model(MusicaControllerSpec.groovy:58)
+2014-05-16 10:47:55,321 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:47:55,321 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:47:55,322 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:47:55,322 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:47:55,322 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:47:55,322 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test the update action performs an update on a valid domain instance(MusicaControllerSpec.groovy:74)
+2014-05-16 10:47:55,487 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:47:55,487 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:47:55,487 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:47:55,487 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:47:55,488 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:47:55,488 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at musica.MusicaControllerSpec.Test that the delete action deletes an instance if it exists(MusicaControllerSpec.groovy:102)
+2014-05-16 10:47:56,340 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7ce21cfc
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:47:56,341 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7ce21cfc
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:47:56,341 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7ce21cfc
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:47:56,341 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7ce21cfc
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:47:56,341 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7ce21cfc
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:47:56,342 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7ce21cfc
+
+	at peliculas.PeliculasControllerSpec.Test that the show action returns the correct model(PeliculasControllerSpec.groovy:41)
+2014-05-16 10:47:56,480 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@75d7db45
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:47:56,480 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@75d7db45
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:47:56,480 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@75d7db45
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:47:56,480 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@75d7db45
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:47:56,480 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@75d7db45
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:47:56,481 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.status == 404
+|        |      |
+|        200    false
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@75d7db45
+
+	at peliculas.PeliculasControllerSpec.Test that the edit action returns the correct model(PeliculasControllerSpec.groovy:57)
+2014-05-16 10:47:56,649 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:47:56,649 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:47:56,650 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:47:56,650 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:47:56,650 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:47:56,650 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test the update action performs an update on a valid domain instance(PeliculasControllerSpec.groovy:73)
+2014-05-16 10:47:56,789 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:47:56,789 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:47:56,789 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:47:56,789 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:47:56,790 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 10:47:56,790 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+status == 404
+|      |
+200    false
+
+	at peliculas.PeliculasControllerSpec.Test that the delete action deletes an instance if it exists(PeliculasControllerSpec.groovy:101)
+2014-05-16 16:32:41,161 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:32:41,176 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:32:41,203 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:32:41,217 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:32:41,308 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:32:41,320 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:34:44,497 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:34:44,516 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:34:44,557 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:34:44,570 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:34:44,670 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:34:44,683 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:48:21,640 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:48:21,667 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:48:21,704 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:48:21,718 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:48:21,767 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:48:21,768 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:plubic void method(x,y){ Integer suma=x+y;  return suma}, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:50:09,190 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:50:09,210 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:50:09,234 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:50:09,347 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:50:09,472 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-16 16:50:09,484 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:07:10,116 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:07:10,199 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:07:10,242 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:07:10,252 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:07:10,307 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:07:10,309 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:09:28,979 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:09:28,994 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:09:29,032 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:09:29,048 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:09:29,090 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:09:29,091 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.LenguajesSpec.Lenguajes() is applicable for argument types: (java.util.LinkedHashMap) values: [[lenguaje:Java, experiencia:10 años, ejemplo:xxxx, ...]]
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:14)
+2014-05-19 10:10:46,438 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.Lenguajes.getId() is applicable for argument types: (java.lang.Integer) values: [1]
+Possible solutions: getId(), setId(java.lang.Long), get(java.io.Serializable), getAt(java.lang.String), getAll(), getAll([Ljava.lang.Long;)
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:18)
+2014-05-19 10:10:46,450 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.Lenguajes.getId() is applicable for argument types: (java.lang.Integer) values: [1]
+Possible solutions: getId(), setId(java.lang.Long), get(java.io.Serializable), getAt(java.lang.String), getAll(), getAll([Ljava.lang.Long;)
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:18)
+2014-05-19 10:10:46,468 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.Lenguajes.getId() is applicable for argument types: (java.lang.Integer) values: [1]
+Possible solutions: getId(), setId(java.lang.Long), get(java.io.Serializable), getAt(java.lang.String), getAll(), getAll([Ljava.lang.Long;)
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:18)
+2014-05-19 10:10:46,476 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.Lenguajes.getId() is applicable for argument types: (java.lang.Integer) values: [1]
+Possible solutions: getId(), setId(java.lang.Long), get(java.io.Serializable), getAt(java.lang.String), getAll(), getAll([Ljava.lang.Long;)
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:18)
+2014-05-19 10:10:46,515 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.Lenguajes.getId() is applicable for argument types: (java.lang.Integer) values: [1]
+Possible solutions: getId(), setId(java.lang.Long), get(java.io.Serializable), getAt(java.lang.String), getAll(), getAll([Ljava.lang.Long;)
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:18)
+2014-05-19 10:10:46,516 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: lenguajes.Lenguajes.getId() is applicable for argument types: (java.lang.Integer) values: [1]
+Possible solutions: getId(), setId(java.lang.Long), get(java.io.Serializable), getAt(java.lang.String), getAll(), getAll([Ljava.lang.Long;)
+	at lenguajes.LenguajesSpec.setup(LenguajesSpec.groovy:18)

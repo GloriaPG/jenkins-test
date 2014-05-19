@@ -1,20 +1,36 @@
 package lenguajes
 
-import grails.test.mixin.TestFor
-import spock.lang.Specification
+
+
+import spock.lang.*
 
 /**
- * See the API for {@link grails.test.mixin.domain.DomainClassUnitTestMixin} for usage instructions
+ *
  */
-@TestFor(Lenguajes)
 class LenguajesSpec extends Specification {
 
     def setup() {
+        //Save
+        Lenguajes lenguajes=new Lenguajes(lenguaje:'Java',experiencia:'10 años',ejemplo:'xxxx',conclusion:'Es un lenguaje flexible y multiplataforma.')
+        lenguajes.save(failOnError: true)
+
+        //Update
+        Lenguajes lenguajesUpdate=lenguajes.get(1)
+        lenguajesUpdate.lenguaje="Java 7"
+        lenguajesUpdate.save(failOnError: true)
     }
 
     def cleanup() {
     }
 
-    void "test something"() {
+    void "Test Domain"() {
+
+        setup:"SAVE and UPDATE "
+        //Save
+        def lenguajes=new Lenguajes(lenguaje:'Java',experiencia:'10 años',ejemplo:'ejemplo X',conclusion:'Es un lenguaje flexible y multiplataforma.')
+
+
+        expect:'SAVING ,UPDATING'
+        lenguajes.save(failOnError: true)
     }
 }

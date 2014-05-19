@@ -5,6 +5,9 @@ grails.project.test.reports.dir = "target/test-reports"
 grails.project.work.dir = "target/work"
 grails.project.target.level = 1.6
 grails.project.source.level = 1.6
+cloudbees.account='gloriapg'
+cloudbees.api.key='7E16EF24C43BD56B'
+cloudbees.api.secret='DEGS2UWUV+XN/8DP8FFD4XFPE6VB7YP0OPWZQ/W8MW8='
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
 grails.project.fork = [
@@ -59,6 +62,7 @@ grails.project.dependency.resolution = {
         compile ":scaffolding:2.0.0"
         compile ':cache:1.1.1'
         compile ":code-coverage:1.2.7"
+        compile ":cloud-bees:0.6.2"
 
         // plugins needed at runtime but not for compilation
         runtime ":hibernate:3.6.10.1" // or ":hibernate4:4.1.11.1"
