@@ -50,12 +50,12 @@ grails.project.dependency.resolution = {
     }
 
     dependencies {
-
+        provided 'javax.servlet:javax.servlet-api:3.1.0'
     }
 
     plugins {
         // plugins for the build system only
-        build ":tomcat:7.0.53"
+        build ":tomcat:7.0.47"
 
         // plugins for the compile step
         compile ":scaffolding:2.0.0"
