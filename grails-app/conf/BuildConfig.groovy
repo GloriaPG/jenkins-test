@@ -50,7 +50,7 @@ grails.project.dependency.resolution = {
     }
 
     dependencies {
-        provided 'javax.servlet:javax.servlet-api:3.1.0'
+
     }
 
     plugins {
