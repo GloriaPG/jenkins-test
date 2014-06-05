@@ -3,9 +3,7 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="Grails" name="Grails" removed="false">
-          <file>file://$MODULE_DIR$/web-app/WEB-INF/applicationContext.xml</file>
-        </fileset>
+        <fileset id="Grails" name="Grails" removed="false" />
       </configuration>
     </facet>
     <facet type="web" name="GrailsWeb">
@@ -21,7 +19,6 @@
       <configuration>
         <datasource-map>
           <unit-entry name="Gorm" />
-          <unit-entry name="sessionFactory" />
         </datasource-map>
         <naming-strategy-map />
       </configuration>
@@ -40,6 +37,7 @@
       <sourceFolder url="file://$MODULE_DIR$/grails-app/taglib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test/integration" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target/classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-build-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-classes" />
       <excludeFolder url="file://$MODULE_DIR$/target/work/plugin-provided-classes" />
