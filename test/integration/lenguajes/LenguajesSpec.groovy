@@ -24,7 +24,7 @@ class LenguajesSpec extends Specification {
     }
 
     void "Test Domain"() {
-
+         println "jajajajaaj probando"
         setup:"SAVE and UPDATE "
         //Save
         def lenguajes=new Lenguajes(lenguaje:'Java',experiencia:'10 años',ejemplo:'ejemplo X',conclusion:'Es un lenguaje flexible y multiplataforma.')
