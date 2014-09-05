@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="vincoOrbiss-Mac-mini.local" name="lenguajes.LenguajesSpec" tests="1" time="0.718" timestamp="2014-06-06T15:37:29">
+<testsuite errors="0" failures="0" hostname="vincoOrbiss-Mac-mini.local" name="lenguajes.LenguajesSpec" tests="1" time="0.401" timestamp="2014-06-06T21:05:14">
   <properties />
-  <testcase classname="lenguajes.LenguajesSpec" name="Test Domain" time="0.716" />
+  <testcase classname="lenguajes.LenguajesSpec" name="Test Domain" time="0.399" />
   <system-out><![CDATA[--Output from Test Domain--
 ]]></system-out>
   <system-err><![CDATA[--Output from Test Domain--

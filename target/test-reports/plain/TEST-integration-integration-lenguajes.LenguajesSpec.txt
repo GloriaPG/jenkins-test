@@ -1,5 +1,5 @@
 Testsuite: lenguajes.LenguajesSpec
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.718 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.401 sec
 ------------- Standard Output ---------------
 --Output from Test Domain--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.718 sec
 --Output from Test Domain--
 ------------- ---------------- ---------------
 
-Testcase: Test Domain took 0.717 sec
+Testcase: Test Domain took 0.399 sec
