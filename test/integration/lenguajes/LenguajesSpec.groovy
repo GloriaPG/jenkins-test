@@ -35,14 +35,4 @@ class LenguajesSpec extends Specification {
     }
 
 
-     void "Test two"() {
-         println "Not let me down :( "
-        setup:"SAVE and UPDATE "
-        //Save
-        def lenguajes=new Lenguajes(lenguaje:'Java',experiencia:'10 años',ejemplo:'ejemplo X',conclusion:'Es un lenguaje flexible y multiplataforma.')
-
-
-        expect:'SAVING ,UPDATING'
-        lenguajes.save(failOnError: true)
-    }
 }
