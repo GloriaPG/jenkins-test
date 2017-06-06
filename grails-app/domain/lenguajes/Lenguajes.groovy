@@ -4,7 +4,7 @@ class Lenguajes {
     String lenguaje
     String experiencia
     String ejemplo
-    String conclusion
+    boolean status
     static constraints = {
     }
 }
